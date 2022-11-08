@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>hello world</h2>
+    <h2>Javascript in body</h2>
+    <p id="demo">a paragraph</p>
+    <button type="button" onclick="myFunction()">try it yourself</button>
+    <script src="burhanscript.js"></script>
+
+    <h1 id="burhan">a example paragraph</h1>
+    <button type="button" onclick="myFunction()">try it by yourself</button>
+    <script src="burhanscript.js"></script>
+
+    <h5>my first web page</h5>
+    <p id="sum"></p>
+    <script>
+        document.write(7+17);
+    </script>
+
+    <button type="button" onclick="document.write(50+43)">try it yourself.</button>
+
+
+    <!--For testing purpose document.write() is convinient to use-->
+    <p id="demo2"></p>
+
+    <script>
+        document.write(5+39);
+        console.log(56+78);
+    </script>
+    <!--the window.print() method-->
+    <p>click the button to print current page</p>
+    <button onclick="window.print()">print this page</button>
+    <hr>
+    <p id="demo3"></p>
+    <p id="demo4"> dm= </p>
+    <script>
+        document.getElementById("demo3").innerHTML="Hello Burhan Cahanbaki";
+        let a,b,c;
+        a=65;
+        b=54;
+        c=a+b;
+        document.getElementById("demo4").innerHTML=c;
+
+    </script>
+    <hr>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <script>
+        let d, e, f;
+        d=4; e=5; f=d+e;
+        document.getElementById("demo5").innerHTML=f;
+        let x=" burhan "; y=" habibul"; z= x +  y ;
+        document.getElementById("demo5").innerHTML=z;
+
+    </script>
+
+
+    <!--<script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML="Paragraph have changed in body part";
+        }
+    </script>
+
+</body>
+</html>

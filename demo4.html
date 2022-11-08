@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+
+    <button onclick="document.getElementById('demo5').innerHTML=Date()">The time</button>
+    <p id="demo5"></p>
+
+    <button onclick="this.innerHTML=Date()">the time is</button>
+    <script>
+        const car={type:"fiyat",Model:"599",color:"white"};
+        // display some data from object;
+        document.getElementById("demo").innerHTML="car type is "+car.type+" car model "+car.Model+" car color is "+car.color;
+        const person={firstName:"Burhan",
+        lastName:"Habibul",
+        age:"40",
+        Eyecolor:"Blue",
+        fullName: function() {
+            return this.firstName + " " + this.lastName;
+        }
+             }
+        document.getElementById("demo2").innerHTML=person.firstName+" "+person.lastName+" is "+person.age+" years old";
+        document.getElementById("demo3").innerHTML="his Eyecolor is "+person.Eyecolor;
+        document.getElementById("demo4").innerHTML=person.fullName();
+
+
+
+    </script>
+</body>
+</html>

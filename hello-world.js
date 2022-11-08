@@ -2,30 +2,33 @@
 
 //console.log("Hello World");
 //document.write("Merhaba Dunya");
-
-var servername="Burhan cahanbaki"
-console.log(servername)
-
-let burhan;
-burhan="Habul"
-console.log(burhan)
-let password="1345";
-console.log(password)
-
-let fullname="burhan cahanbaki ";
-console.log(fullname)
-fullname="Mustafa Cahanbaki"
-console.log(fullname)
-fullname+"Yeni eklenen bulgi"
-console.log(fullname +" test bilgisi")
-fullname=fullname+"test bilgileri"
-console.log(fullname)
-
-fullname="sifirladik"
-fullname+="yeni bilgi eklendi"
-console.log(fullname)
-const server="1243345"
-console.log(server)
+let price=100;
+let tax=0.18;
+let priceTax=price * tax;
+let total=priceTax+price;
+console.log("Fiyat: ", price, 
+"KDV orani", tax, 
+"KDV tutari:",priceTax,
+" toplamfiyat:", total);
+let counter=321;
+counter=counter+1;
+console.log(counter);
+counter+=1;
+console.log(counter);
+counter++;
+console.log(counter);
+counter--;
+console.log(counter);
+counter*=10;
+console.log(counter);
+counter--;
+console.log(counter);
+counter/=3;
+console.log(counter);
+console.log(4+5*10);
+console.log((4+5)*10);
+// sayi tek mi cift mi ;
+console.log(3%2);
 
 
 
