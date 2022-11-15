@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <script>
+        const cars=[];
+        cars[0]="Toyota";
+        cars[1]="Volvo";
+        cars[2]="Wolksvagon";
+        cars[3]="Merce";
+        document.getElementById("demo").innerHTML=cars[cars.length-1];
+
+        const car1=new Array("Ford","Audi","Fiat","Renault");
+        car1[2]="Opel";
+        document.getElementById("demo2").innerHTML=car1;
+        document.getElementById("demo3").innerHTML=car1[2];
+
+    </script>
+</body>
+</html>
